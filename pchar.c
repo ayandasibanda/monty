@@ -13,7 +13,7 @@ void f_pchar(stack_t **head, unsigned int counter)
 	h = *head;
 	if (!h)
 	{
-		fprintf(stderr, "L%d: can't print char, stack empty\n", counter);
+		fprintf(stderr, "L%d: can't pchar, stack empty\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
